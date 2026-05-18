@@ -1,0 +1,130 @@
+body{
+	font-family:Arial ;
+	background: white;
+    text-align: center;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+
+	
+	padding: 15px;
+}
+header img{
+	width: 150px;
+}
+nav{
+	
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	align-items: center;
+	box-shadow: 10px 10px 10px gray;
+	
+
+}
+nav a{
+	text-decoration: none;
+	font-size: 2rem;
+	margin-right: 20px;
+	color: white;
+
+}
+
+nav a:hover{
+	color:red;
+}
+.bg{
+	background: blue;
+	color: white;
+}
+
+.products{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	height: 30vh;
+	gap: 20px;
+
+	padding: 20px;
+	margin: auto;
+}
+.product{
+	height: 100%;
+background: white;
+border-radius: 10px;
+
+padding: 5px;
+box-shadow: 10px 10px 10px blue;
+}
+img{
+	width: 30%;
+	height: 50%;
+
+}
+.product input{
+	background: darkblue;
+	color: white;
+	border: none;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.product input:hover{
+	background: green;
+	
+}
+
+.search{
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 10px 10px 10px blue;
+
+}
+.search input{
+	padding: 5px;
+	width: 300px;
+	border-radius: 5px;
+}
+.slider{
+	width: 100%;
+	max-width: 500px;
+	height: 400px;
+	overflow: hidden;
+	margin: 50px auto;
+	border-radius: 10px;
+}
+.slides{
+	display: flex;
+	width: 1000%;
+	animation: slide 300s infinite;
+}
+.slides img{
+	
+	height: 400px;
+	/*object-fit: cover;*/
+}
+@keyframes slide{
+	0% { transform:translate(0); }
+	10% {transform: translate(-100%);}
+	20% {transform: translate(-200%);}
+	30% {transform: translate(-300%);}
+	40% {transform: translate(-400%);}
+	50% {transform: translate(-500%);}
+	60% {transform: translate(-600%);}
+	70% {transform: translate(-700%);}
+	80% {transform: translate(-800%);}
+	90% {transform: translate(-900%);}
+	100% {transform: translate(0);}
+}
+
+.Norutyunner{
+	width: 80vh;
+	height: 60vh;
+	padding: 20px;
+	margin: 30px auto 30px auto;
+	box-shadow: 10px 10px 10px blue;
+	border-radius: 20px;
+}
