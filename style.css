@@ -33,7 +33,11 @@ nav a{
 	color: white;
 
 }
-
+@media screen and (max-width: 480px)  {
+  body {
+    font-size: 0.5em;
+  }
+}
 nav a:hover{
 	color:red;
 }
