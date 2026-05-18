@@ -55,6 +55,15 @@ nav a:hover{
 	padding: 20px;
 	margin: auto;
 }
+@media screen and (max-width: 480px)  {
+  .products {
+    display: block;
+  }
+  .product{
+  	margin: 20px;
+  	padding: 3px;
+  }
+}
 .product{
 	height: 100%;
 background: white;
